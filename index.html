@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>title</title>
+  <!-- animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <!-- aos.css -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/all.css" />
+  <style>
+    [data-aos] {
+      visibility: hidden;
+    }
+
+    [data-aos].animate__animated {
+      visibility: visible;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header container">
+    <div class="namePhoto">
+      <h1>Joanne<br />Chen</h1>
+      <div class="photo"></div>
+    </div>
+  </div>
+  <div class="profile container title">
+    <h2 data-aos="animate__fadeInDown">個人資料<span>PROFILE</span></h2>
+    <ul class="profileList content" data-aos="animate__fadeInDown">
+      <li class="dot">
+        <p>陳久安 Joanne Chen</p>
+        <p>1997-</p>
+        <p>應屆畢業生／接案設計師／UI 設計實習生</p>
+      </li>
+      <li>
+        <p>UI 設計修行中／立志當斜槓青年</p>
+        <p>獨立接案，內容涵蓋：</p>
+        <p>品牌規劃、視覺設計、編輯設計、標準字、物件及印刷品設計等。</p>
+      </li>
+    </ul>
+  </div>
+  <div class="education container title">
+    <h2 data-aos="animate__fadeInDown">學歷<span>EDUCATION</span></h2>
+    <ul class="education-list content timeLine" data-aos="animate__fadeInDown">
+      <li class="dot">
+        <p>國立六角師範大學 視覺設計學系 學士學位 | 2016－2020</p>
+      </li>
+      <li class="dot">
+        <p>國立六腳高級中學 美術班 | 2013－2016</p>
+      </li>
+    </ul>
+  </div>
+  <div class="skills">
+    <div class="skills-main container title">
+      <h2 data-aos="animate__flipInX">技能<span>SKILLS</span></h2>
+      <ul class="skills-list content timeLine" data-aos="animate__flipInX">
+        <li>Adobe Photoshop</li>
+        <li>Adobe Illustrator</li>
+        <li>Adobe XD</li>
+        <li>Adobe Indesign</li>
+        <li>C4D</li>
+        <li>Adobe Premiere</li>
+        <li class="skills-content-b">語言：中文、英文</li>
+      </ul>
+    </div>
+  </div>
+  <div class="work-experience container title">
+    <h2 data-aos="animate__bounceInLeft">工作經驗<span>WORK EXPERIENCE</span></h2>
+    <ul class="work-experience-list content timeLine">
+      <li data-aos="animate__bounceInLeft">
+        <h3 class="hexschool">六角學院 視覺設計實習生 | 2019/07－2020/06</h3>
+        <img src="img/Group 1.svg" alt="" />
+        <p>
+          在六角學院長達一年的實習中，前期藉由公司課程掌握 HTML, CSS, Adobe
+          XD，設計給學員使用的名片設計教材，並參與六角週年活動，設計各式周邊商品及活動網路宣傳圖。後期進入
+          UI 設計範疇，設計六角共筆部落格 -
+          W3HexSchool、六角發案服務網介面設計、供給學員的教案-
+          RWD官方網站設計，並設計各式網頁活動宣傳圖。
+        </p>
+      </li>
+      <li data-aos="animate__bounceInLeft">
+        <h3>獨立接案 Hao Jun 酒標設計 | 2019</h3>
+      </li>
+      <li data-aos="animate__bounceInLeft">
+        <h3>獨立接案 Exulans 酒標設計 | 2019</h3>
+      </li>
+      <li data-aos="animate__bounceInLeft">
+        <h3>獨立接案 桃園平鎮市民健走活動提案 | 2019</h3>
+      </li>
+      <li data-aos="animate__bounceInLeft">
+        <h3>Simtree 興趣咖啡 工讀生 | 2018－2019</h3>
+        <img src="img/tree.png" alt="" />
+        <p>擔任外場及吧台服務生，學習咖啡相關知識。</p>
+      </li>
+    </ul>
+  </div>
+  <div class="footer">
+    <div class="contact container title">
+      <h2>聯絡方式<span>CONTACT METHOD</span></h2>
+      <ul>
+        <li>
+          <p>Mail：xxxd@hexschool.com</p>
+        </li>
+        <li>
+          <p>Phone：0910123456</p>
+        </li>
+        <li>
+          <p>Kaohsiung, Taiwan</p>
+        </li>
+        <li>
+          <p>作品連結：<a href="#">https://www.behance.net/xxxdddddd</a></p>
+        </li>
+      </ul>
+      <ul class="social-media">
+        <li>
+          <a href="#"><img src="img/facebook.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/instagram-alt.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/line.svg" alt="" /></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- aos.js -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      useClassNames: true,
+      initClassName: false,
+      animatedClassName: 'animate__animated'
+      // animatedClassName: 'animated',
+    });
+  </script>
+</body>
+
+</html>
